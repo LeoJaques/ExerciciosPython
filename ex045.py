@@ -11,7 +11,7 @@ print('''Suas opções:
 player = int(input('Qual é a sua jogada? '))
 if player < 0 or player >= 3:
     print('(ERROR!). Opção invalida, tente novamente!')
-    Break
+    break
 else:
     print('JO')
     sleep(1)
